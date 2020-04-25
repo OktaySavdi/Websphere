@@ -1,4 +1,4 @@
-## Webpshere Backup-Restore Profile
+## Websphere Backup-Restore Profile
 
 Stop JVM and Nodes
 
