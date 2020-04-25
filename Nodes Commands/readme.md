@@ -1,4 +1,4 @@
-## Webpshere Nodes Commands
+## Websphere Nodes Commands
 
 **Remove Node**
 ```
