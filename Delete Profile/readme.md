@@ -1,4 +1,4 @@
-## Webpshere Delete Profile
+## Websphere Delete Profile
 
 **Linux**
 ```
