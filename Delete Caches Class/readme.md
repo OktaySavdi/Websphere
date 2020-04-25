@@ -1,4 +1,4 @@
-## Websphere Delete Caches Class
+## Websphere Delete Caches
 
 [Referance](https://www-01.ibm.com/support/docview.wss?uid=swg21607887)
 
