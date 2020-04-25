@@ -1,6 +1,7 @@
 ## Webpshere Version Upgrade
 
 Stop
+      
        - JVM
 	   
        - Nodeagent
@@ -14,6 +15,7 @@ add config file on repository
 ![image](https://user-images.githubusercontent.com/3519706/80278829-1d54c300-8702-11ea-9659-46c28a3a8b34.png)
 
 Start
+
        - DMGR
 	   
        - Nodeagent
