@@ -54,3 +54,5 @@ Click “Add Repository”, it will open a prompt where you can enter the reposi
 It will take few minutes to install and once done, you will get the confirmation screen.
 
 ![image](https://user-images.githubusercontent.com/3519706/80289534-a2160000-8747-11ea-97ec-504d2ab2f81c.png)
+
+[Reference](https://geekflare.com/was9-installation-guide/)
