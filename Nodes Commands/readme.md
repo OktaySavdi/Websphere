@@ -36,5 +36,5 @@ profiles\Dmgr01\bin\setupCmdLine.sh
 SET WAS_NODE=PWSCLSAP01CellManager01     #replaced with new NodeName  
 ```
 ```
-syncNode.bat (DMG) 8879 
+syncNode.sh (DMG) 8879 
 ```
