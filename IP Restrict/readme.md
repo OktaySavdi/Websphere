@@ -44,6 +44,6 @@ So in above example, I have included only **172.16.179.135**  as allowed IP. Let
 
 so you see it’s blocked.
 
-you can see exlude list on `server.xml`
+you can see exclude list on `server.xml`
 
 ![image](https://user-images.githubusercontent.com/3519706/80277954-402fa900-86fb-11ea-8818-d60c9c39dfc7.png)
