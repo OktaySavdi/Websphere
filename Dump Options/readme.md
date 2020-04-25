@@ -1,4 +1,4 @@
-## Webpshere dump Options
+## Websphere dump Options
 
 [Referance](https://www.ibm.com/support/knowledgecenter/en/SSYKE2_8.0.0/com.ibm.java.aix.80.doc/diag/tools/dumpagents_removing.html)
 
