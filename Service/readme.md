@@ -4,7 +4,7 @@
 
 **################ Linux ################**
 
-cd /opt/IBM/WebSphere/AppServer/bin
+cd <.>/AppServer/bin
 
 **CELL MANAGER**
 ```
@@ -31,7 +31,7 @@ or
 ```
 **################ Windows ################**
 
-cd D:\IBM\WebSphere\AppServer\bin>
+cd <.>\AppServer\bin>
 
 **CELL MANAGER**
 ```
