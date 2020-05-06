@@ -22,6 +22,7 @@ cd /opt/IBM/InstallationManager/eclipse/
 ./IBMIM -skipInstall "/opt/Record/imRegistry" -record /opt/Record/install_response_file.xml
 ```
 **proceeds like a normal installation**
+
 ![image](https://user-images.githubusercontent.com/3519706/81184937-a816a700-8fb9-11ea-87a7-b6df1c8cf439.png)
 
 ![image](https://user-images.githubusercontent.com/3519706/81185024-c1b7ee80-8fb9-11ea-8ad7-d8538d3eb684.png)
@@ -37,6 +38,7 @@ After the install step, install **response file.xml** silent file will be create
 
 
 **Use the response file to install the product.** 
+
 Go to a command line on each of the systems on which you want to install the product, change to the eclipse/tools subdirectory in the directory where you installed Installation Manager, and install the product.
 ```bash
 cd /opt/IBM/InstallationManager/eclipse/tools
