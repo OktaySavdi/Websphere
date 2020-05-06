@@ -10,7 +10,7 @@ We paste the following code into the blank area
 ```ruby
 RewriteEngine On
  # handy for seeing what's going on when the web server tries to redirect
- RewriteLog "C:/rwlog.txt"
+ RewriteLog "/opt/logs/rwlog.txt"
  RewriteLogLevel 1
  # if the port's not 443 (ssl)...
  RewriteCond %{SERVER_PORT} !^443$
@@ -19,5 +19,5 @@ RewriteEngine On
 ```
 Restart IHS Service
 ```ruby
- IBMHTTPServerV8.5 servisini stop-start et
+systemctl restart IBMHTTPServerV8.5 
 ```
