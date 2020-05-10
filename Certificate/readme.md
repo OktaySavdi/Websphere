@@ -18,6 +18,8 @@ click **`CellDefault SLSetting`**
 
 Key stores and certificates > CellDefaultKeyStore > Personal certificates > import
 
+import your certificate
+
 ![image](https://user-images.githubusercontent.com/3519706/81495858-0eead780-92bc-11ea-92f1-3be690f6de32.png)
 
 After installing the certificate, the screen returns to the first screen.
