@@ -2,10 +2,10 @@
 
 **Linux**
 ```
-/opt/IBM/WebSphere/AppServer/bin/manageprofiles.bat -delete -profileName AppSrv01
+/opt/IBM/WebSphere/AppServer/bin/manageprofiles.sh -delete -profileName AppSrv01
 ```
 ```
-/opt/IBM/WebSphere/AppServer/bin/manageprofiles.bat -delete -profileName Dmgr01
+/opt/IBM/WebSphere/AppServer/bin/manageprofiles.sh -delete -profileName Dmgr01
 ```
 **Windows**
 ```
