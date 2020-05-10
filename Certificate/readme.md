@@ -26,6 +26,8 @@ After installing the certificate, the screen returns to the first screen.
 
 SSL certificate and key management > Manage endpoint security configurations
 
+Click (CellDefaultSSLSettings)
+
 ![image](https://user-images.githubusercontent.com/3519706/81495775-69cfff00-92bb-11ea-92e4-982e10592c0c.png)
 
 Installed certificate is selected
