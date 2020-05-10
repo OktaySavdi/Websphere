@@ -11,7 +11,7 @@ install silent **Installation Manager**
 cd /opt/insmgr/disk_linux.gtk.x86_64/InstallerImage_linux.gtk.x86_64/
 ```
 ```ruby
-installc -log /opt/Log/install.log -acceptLicense
+./installc -log /opt/Log/install.log -acceptLicense
 ```
 **For Record file for  Websphere application server**
 ```bash
