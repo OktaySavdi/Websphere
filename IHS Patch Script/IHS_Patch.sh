@@ -47,7 +47,7 @@ function rmControlFolder (){
 function checkDiskSize () {
     if [ $(cat /etc/system-release-cpe  | cut -f5 -d: | cut -c1) -gt 6 ]; then
         echo "$(hostname)-Check Disk Size"
-        for path in "/opt/IBMIHS" "/web_log"; do
+        for path in "/opt/IBMIHS" "/opt/log"; do
             size=$(df -m | grep $path | awk '{print $4}')
             if [ $size -gt 1024 ]; then
                  echo "$(hostname)- ($path) Disk Size OK"
@@ -58,7 +58,7 @@ function checkDiskSize () {
         done  
     else
         echo "$(hostname)-Check Disk Size"
-        for path in "/opt/IBMIHS" "/web_log"; do
+        for path in "/opt/IBMIHS" "/opt/log"; do
             size=$(df -m | grep $path | awk '{print $3}')
             if [ $size -gt 1024 ]; then
                  echo "$(hostname)- ($path) Disk Size OK"
@@ -371,6 +371,7 @@ function rollback(){
 
 # is not allowed to run differently in parallel
 parallelExecPrevent
+# Check if there is enough space on the disk
 checkDiskSize
 # Exits if IHS is not available
 checkIHS
