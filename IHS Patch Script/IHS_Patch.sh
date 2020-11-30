@@ -201,11 +201,11 @@ function getNetworkPath () {
   if [[ "$os" =  "$C_LINUX" ]]
   then
       echo "$(hostname)-Linux Machine"
-      fullFixDirectoryPath=/sw/"$fixDirectoryPath"
+      fullFixDirectoryPath=/Mypath/"$fixDirectoryPath"
   elif [[ "$os" =  "$C_AIX" ]]
   then
       echo "$(hostname)-Aix Machine"
-      fullFixDirectoryPath=/swdepot/aix/"$fixDirectoryPath"
+      fullFixDirectoryPath=/Mypath/aix/"$fixDirectoryPath"
   else
       echo "$(hostname)-Not AIX-Not Linux"
       rmControlFolder
