@@ -9,8 +9,6 @@
 ```
 /opt/IBM/Websphere/AppServer/bin/clearClassCache.sh
 /opt/IBM/Websphere/AppServer/bin/bin/osgiCfgInit.sh
-/opt/IBM/Websphere/AppServer/bin/bin/clearClassCache.sh
-/opt/IBM/Websphere/AppServer/bin/bin/osgiCfgInit.sh
 ```
 
 **Clear Files**
